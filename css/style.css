@@ -1,0 +1,47 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.weather-icon {
+  height: 80px;
+  width: 80px;
+  background-size: 100%; }
+  .articleDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  .articleDiv p{
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  .sectionDiv{
+    display: flex;
+    justify-content: center;
+  }
+  .containerDiv{
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .containerDiv p:{
+    width: 100%;
+    margin: 1rem, 0rem, 1rem, 0rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  h2{
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+
+  Add CommentCollapse 
